@@ -76,19 +76,20 @@ int task4(int number) {
         return 31;
     }
     
-    
-int task5(int number){
-    if (number == 4 || number == 6 || number == 9 || number == 11)
+  int task5(int number)
+{
+
+    if (number == 2)
+    {
+        return 28;
+    }
+    else if (number == 4 || number == 6 || number == 9 || number == 11)
     {
         return 30;
     }
-    else if (number == 1 || number == 3 || number == 5 || number == 7 || number == 8 || number == 10 || number == 12)
-    {
-        return 31;
-    }
     else
     {
-        return 28;
+        return 31;
     }
 }
 
