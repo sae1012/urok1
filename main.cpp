@@ -105,5 +105,10 @@ int main() {
     int number;
     cout << "Enter number:" << endl;
     cin >> number;
+    cout << task1(number) << endl;
+    cout << task2(number) << endl;
+    cout << task3(number) << endl;
+    cout << task4(number) << endl;
     cout << task5(number) << endl;
+    cout << task6(number) << endl;
 }
