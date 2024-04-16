@@ -94,6 +94,13 @@ int task4(int number) {
 }
 
 
+string zad6(int number)
+{
+    vector <string> month = {"январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь"};
+    return month[number % 12];
+}
+
+
 int main() {
     int number;
     cout << "Enter number:" << endl;
